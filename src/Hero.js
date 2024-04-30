@@ -40,7 +40,7 @@ export default function Hero() {
         <motion.h3 variants={textVariants} >Web Developer</motion.h3>
         <a href="https://drive.google.com/file/d/1SeGSasR5h41q5p9Ae-up6lAl579oepr-/view?usp=drive_link" target='_blank' download ><div id='dnld'>Download CV <PiDownloadSimpleFill size={"20px"} /></div> </a>
       </motion.div>
-      <motion.div className="imgcont" variants={textVariants} initial="initial" animate="animate"><img src="./mypic1.png" alt="mypic" /></motion.div>
+      <motion.div className="imgcont" variants={textVariants} initial="initial" animate="animate"><img src="/mypic1.png" alt="mypic" /></motion.div>
       <motion.div class="sliding-text-container" >
         <span class="sliding-text"> <marquee behavior="" direction="left " scrollamount="15" >Sanyam Sharma - MERN Stack  Developer</marquee></span>
       </motion.div>
