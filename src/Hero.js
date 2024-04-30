@@ -38,7 +38,7 @@ export default function Hero() {
         <motion.h5 id="name" variants={textVariants}>Hii <img src="https://media.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif" width={'30px'} alt="" /></motion.h5>
         <motion.h5 id="name" variants={textVariants}>I'm Sanyam Sharma</motion.h5>
         <motion.h3 variants={textVariants} >Web Developer</motion.h3>
-        <a href="https://drive.google.com/file/d/1SeGSasR5h41q5p9Ae-up6lAl579oepr-/view?usp=drive_link" target='_blank' download ><div id='dnld'>Download CV <PiDownloadSimpleFill size={"20px"} /></div> </a>
+        <a href="https://drive.google.com/file/d/1SeGSasR5h41q5p9Ae-up6lAl579oepr-/view?usp=drive_link" target='_blank' rel="noreferrer" download ><div id='dnld'>Download CV <PiDownloadSimpleFill size={"20px"} /></div> </a>
       </motion.div>
       <motion.div className="imgcont" variants={textVariants} initial="initial" animate="animate"><img src="/mypic1.png" alt="mypic" /></motion.div>
       <motion.div class="sliding-text-container" >
